@@ -1,0 +1,2 @@
+# ManageShop
+Gestion des stocks
