@@ -1,0 +1,143 @@
+2021-août-30 00:40:39 [background-preinit] INFO org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final 
+2021-août-30 00:40:39 [restartedMain] INFO com.example.managershop.ManagerShopApplication Starting ManagerShopApplication using Java 1.8.0_281 on DESKTOP-066L17B with PID 10236 (C:\Users\Fab\Desktop\manager-shop\target\classes started by Fab in C:\Users\Fab\Desktop\manager-shop) 
+2021-août-30 00:40:40 [restartedMain] INFO com.example.managershop.ManagerShopApplication The following profiles are active: dev 
+2021-août-30 00:40:40 [restartedMain] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-août-30 00:40:40 [restartedMain] INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-août-30 00:40:58 [restartedMain] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-août-30 00:40:59 [restartedMain] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 580 ms. Found 11 JPA repository interfaces. 
+2021-août-30 00:41:10 [restartedMain] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8078 (http) 
+2021-août-30 00:41:10 [restartedMain] INFO org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8078"] 
+2021-août-30 00:41:10 [restartedMain] INFO org.apache.catalina.core.StandardService Starting service [Tomcat] 
+2021-août-30 00:41:10 [restartedMain] INFO org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2021-août-30 00:41:15 [restartedMain] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext 
+2021-août-30 00:41:15 [restartedMain] INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 34557 ms 
+2021-août-30 00:41:17 [restartedMain] INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting... 
+2021-août-30 00:41:19 [restartedMain] INFO com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed. 
+2021-août-30 00:41:19 [restartedMain] INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-août-30 00:41:24 [restartedMain] INFO org.flywaydb.core.internal.license.VersionPrinter Flyway Community Edition 5.2.4 by Boxfuse 
+2021-août-30 00:41:25 [restartedMain] INFO org.flywaydb.core.internal.database.DatabaseFactory Database: jdbc:h2:mem:testdb (H2 1.4) 
+2021-août-30 00:41:28 [restartedMain] WARN org.flywaydb.core.internal.database.base.Database Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. 
+2021-août-30 00:41:29 [restartedMain] INFO org.flywaydb.core.internal.command.DbValidate Successfully validated 1 migration (execution time 00:00.121s) 
+2021-août-30 00:41:29 [restartedMain] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory Creating Schema History table: "PUBLIC"."flyway_schema_history" 
+2021-août-30 00:41:29 [restartedMain] INFO org.flywaydb.core.internal.command.DbMigrate Current version of schema "PUBLIC": << Empty Schema >> 
+2021-août-30 00:41:29 [restartedMain] INFO org.flywaydb.core.internal.command.DbMigrate Migrating schema "PUBLIC" to version 1 - insertData 
+2021-août-30 00:41:30 [restartedMain] INFO org.flywaydb.core.internal.command.DbMigrate Successfully applied 1 migration to schema "PUBLIC" (execution time 00:00.619s) 
+2021-août-30 00:41:31 [restartedMain] INFO org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-août-30 00:41:32 [restartedMain] INFO org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.25.Final 
+2021-août-30 00:41:33 [restartedMain] INFO org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-août-30 00:41:34 [restartedMain] INFO org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-août-30 00:41:50 [restartedMain] INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-août-30 00:41:50 [restartedMain] INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-août-30 00:41:50 [restartedMain] INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729 
+2021-août-30 00:42:07 [restartedMain] WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-août-30 00:42:17 [restartedMain] INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-août-30 00:42:30 [restartedMain] INFO org.springframework.security.web.DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6beb68d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e4bd144, org.springframework.security.web.header.HeaderWriterFilter@5b3e5553, org.springframework.web.filter.CorsFilter@6dc6306d, org.springframework.security.web.authentication.logout.LogoutFilter@2f41b022, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41cb8038, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f938e8e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14780fd9, org.springframework.security.web.session.SessionManagementFilter@408d4bff, org.springframework.security.web.access.ExceptionTranslationFilter@25585415, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7092101e] 
+2021-août-30 00:42:32 [restartedMain] INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor' 
+2021-août-30 00:42:36 [restartedMain] INFO org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8078"] 
+2021-août-30 00:42:36 [restartedMain] INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8078 (http) with context path '' 
+2021-août-30 00:42:36 [restartedMain] INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed 
+2021-août-30 00:42:36 [restartedMain] INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s) 
+2021-août-30 00:42:37 [restartedMain] INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references 
+2021-août-30 00:42:39 [restartedMain] INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllPdtUsingGET_1 
+2021-août-30 00:42:39 [restartedMain] INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateCatUsingPUT_1 
+2021-août-30 00:42:39 [restartedMain] INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllRolesUsingGET_1 
+2021-août-30 00:42:40 [restartedMain] INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: openapiJsonUsingGET_1 
+2021-août-30 00:42:40 [restartedMain] INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllUsersUsingGET_1 
+2021-août-30 00:42:40 [restartedMain] INFO com.example.managershop.ManagerShopApplication Started ManagerShopApplication in 127.784 seconds (JVM running for 141.292) 
+2021-août-30 00:43:03 [http-nio-8078-exec-1] INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-août-30 00:43:03 [http-nio-8078-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet' 
+2021-août-30 00:43:03 [http-nio-8078-exec-1] INFO org.springframework.web.servlet.DispatcherServlet Completed initialization in 6 ms 
+2021-août-30 00:43:31 [http-nio-8078-exec-10] INFO org.springdoc.api.AbstractOpenApiResource Init duration for springdoc-openapi is: 19899 ms 
+2021-août-30 00:44:24 [http-nio-8078-exec-3] INFO com.example.managershop.service.Impl.AppUserServiceImpl Saving new User Canada to the database  
+2021-août-30 00:48:06 [background-preinit] INFO  org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final 
+2021-août-30 00:48:06 [restartedMain] INFO  com.example.managershop.ManagerShopApplication Starting ManagerShopApplication using Java 1.8.0_281 on DESKTOP-066L17B with PID 4308 (C:\Users\Fab\Desktop\manager-shop\target\classes started by Fab in C:\Users\Fab\Desktop\manager-shop) 
+2021-août-30 00:48:06 [restartedMain] INFO  com.example.managershop.ManagerShopApplication The following profiles are active: dev 
+2021-août-30 00:48:07 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-août-30 00:48:07 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-août-30 00:48:15 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-août-30 00:48:16 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 657 ms. Found 11 JPA repository interfaces. 
+2021-août-30 00:48:29 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8078 (http) 
+2021-août-30 00:48:29 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8078"] 
+2021-août-30 00:48:29 [restartedMain] INFO  org.apache.catalina.core.StandardService Starting service [Tomcat] 
+2021-août-30 00:48:29 [restartedMain] INFO  org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2021-août-30 00:48:31 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext 
+2021-août-30 00:48:31 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 23777 ms 
+2021-août-30 00:48:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting... 
+2021-août-30 00:48:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed. 
+2021-août-30 00:48:35 [restartedMain] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-août-30 00:48:37 [restartedMain] INFO  org.flywaydb.core.internal.license.VersionPrinter Flyway Community Edition 5.2.4 by Boxfuse 
+2021-août-30 00:48:37 [restartedMain] INFO  org.flywaydb.core.internal.database.DatabaseFactory Database: jdbc:h2:mem:testdb (H2 1.4) 
+2021-août-30 00:48:38 [restartedMain] WARN  org.flywaydb.core.internal.database.base.Database Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. 
+2021-août-30 00:48:39 [restartedMain] INFO  org.flywaydb.core.internal.command.DbValidate Successfully validated 1 migration (execution time 00:00.215s) 
+2021-août-30 00:48:39 [restartedMain] INFO  org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory Creating Schema History table: "PUBLIC"."flyway_schema_history" 
+2021-août-30 00:48:39 [restartedMain] INFO  org.flywaydb.core.internal.command.DbMigrate Current version of schema "PUBLIC": << Empty Schema >> 
+2021-août-30 00:48:39 [restartedMain] INFO  org.flywaydb.core.internal.command.DbMigrate Migrating schema "PUBLIC" to version 1 - insertData 
+2021-août-30 00:48:39 [restartedMain] INFO  org.flywaydb.core.internal.command.DbMigrate Successfully applied 1 migration to schema "PUBLIC" (execution time 00:00.548s) 
+2021-août-30 00:48:41 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-août-30 00:48:42 [restartedMain] INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.25.Final 
+2021-août-30 00:48:43 [restartedMain] INFO  org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-août-30 00:48:44 [restartedMain] INFO  org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-août-30 00:48:52 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-août-30 00:48:52 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-août-30 00:48:52 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729 
+2021-août-30 00:49:16 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-août-30 00:49:21 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-août-30 00:49:37 [restartedMain] INFO  org.springframework.security.web.DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70713d2b, org.springframework.security.web.context.SecurityContextPersistenceFilter@446aea83, org.springframework.security.web.header.HeaderWriterFilter@3a58f7cd, org.springframework.web.filter.CorsFilter@7e3fffe2, org.springframework.security.web.authentication.logout.LogoutFilter@73d1960a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7981e4b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28f043eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b290d8d, org.springframework.security.web.session.SessionManagementFilter@13798c2b, org.springframework.security.web.access.ExceptionTranslationFilter@4850f3d4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1530e82d] 
+2021-août-30 00:49:42 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor' 
+2021-août-30 00:49:46 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8078"] 
+2021-août-30 00:49:46 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8078 (http) with context path '' 
+2021-août-30 00:49:46 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed 
+2021-août-30 00:49:47 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s) 
+2021-août-30 00:49:47 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references 
+2021-août-30 00:49:49 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllPdtUsingGET_1 
+2021-août-30 00:49:49 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateCatUsingPUT_1 
+2021-août-30 00:49:49 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllRolesUsingGET_1 
+2021-août-30 00:49:50 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: openapiJsonUsingGET_1 
+2021-août-30 00:49:50 [restartedMain] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllUsersUsingGET_1 
+2021-août-30 00:49:50 [restartedMain] INFO  com.example.managershop.ManagerShopApplication Started ManagerShopApplication in 107.875 seconds (JVM running for 118.916) 
+2021-août-30 00:51:39 [background-preinit] INFO       org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final 
+2021-août-30 00:51:40 [restartedMain] INFO       com.example.managershop.ManagerShopApplication Starting ManagerShopApplication using Java 1.8.0_281 on DESKTOP-066L17B with PID 2376 (C:\Users\Fab\Desktop\manager-shop\target\classes started by Fab in C:\Users\Fab\Desktop\manager-shop) 
+2021-août-30 00:51:40 [restartedMain] INFO       com.example.managershop.ManagerShopApplication The following profiles are active: dev 
+2021-août-30 00:51:41 [restartedMain] INFO       org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-août-30 00:51:41 [restartedMain] INFO       org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-août-30 00:51:52 [restartedMain] INFO       org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-août-30 00:51:53 [restartedMain] INFO       org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 592 ms. Found 11 JPA repository interfaces. 
+2021-août-30 00:52:07 [restartedMain] INFO       org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8078 (http) 
+2021-août-30 00:52:07 [restartedMain] INFO       org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8078"] 
+2021-août-30 00:52:07 [restartedMain] INFO       org.apache.catalina.core.StandardService Starting service [Tomcat] 
+2021-août-30 00:52:07 [restartedMain] INFO       org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2021-août-30 00:52:08 [restartedMain] INFO       org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext 
+2021-août-30 00:52:08 [restartedMain] INFO       org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 27278 ms 
+2021-août-30 00:52:09 [restartedMain] INFO       com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting... 
+2021-août-30 00:52:10 [restartedMain] INFO       com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed. 
+2021-août-30 00:52:10 [restartedMain] INFO       org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb' 
+2021-août-30 00:52:13 [restartedMain] INFO       org.flywaydb.core.internal.license.VersionPrinter Flyway Community Edition 5.2.4 by Boxfuse 
+2021-août-30 00:52:13 [restartedMain] INFO       org.flywaydb.core.internal.database.DatabaseFactory Database: jdbc:h2:mem:testdb (H2 1.4) 
+2021-août-30 00:52:15 [restartedMain] WARN       org.flywaydb.core.internal.database.base.Database Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. 
+2021-août-30 00:52:15 [restartedMain] INFO       org.flywaydb.core.internal.command.DbValidate Successfully validated 1 migration (execution time 00:00.088s) 
+2021-août-30 00:52:15 [restartedMain] INFO       org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory Creating Schema History table: "PUBLIC"."flyway_schema_history" 
+2021-août-30 00:52:16 [restartedMain] INFO       org.flywaydb.core.internal.command.DbMigrate Current version of schema "PUBLIC": << Empty Schema >> 
+2021-août-30 00:52:16 [restartedMain] INFO       org.flywaydb.core.internal.command.DbMigrate Migrating schema "PUBLIC" to version 1 - insertData 
+2021-août-30 00:52:16 [restartedMain] INFO       org.flywaydb.core.internal.command.DbMigrate Successfully applied 1 migration to schema "PUBLIC" (execution time 00:00.731s) 
+2021-août-30 00:52:16 [restartedMain] INFO       org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-août-30 00:52:17 [restartedMain] INFO       org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.25.Final 
+2021-août-30 00:52:18 [restartedMain] INFO       org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-août-30 00:52:18 [restartedMain] INFO       org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect 
+2021-août-30 00:52:25 [restartedMain] INFO       org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-août-30 00:52:25 [restartedMain] INFO       org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-août-30 00:52:25 [restartedMain] INFO       org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer LiveReload server is running on port 35729 
+2021-août-30 00:52:41 [restartedMain] WARN       org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-août-30 00:52:46 [restartedMain] INFO       springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+2021-août-30 00:52:58 [restartedMain] INFO       org.springframework.security.web.DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a9d3278, org.springframework.security.web.context.SecurityContextPersistenceFilter@5dedd2f7, org.springframework.security.web.header.HeaderWriterFilter@4fb958b2, org.springframework.web.filter.CorsFilter@35a17132, org.springframework.security.web.authentication.logout.LogoutFilter@1a724d03, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5830b4c0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15b3a56d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d23cdf2, org.springframework.security.web.session.SessionManagementFilter@6d9e921a, org.springframework.security.web.access.ExceptionTranslationFilter@17366cc2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43a0488f] 
+2021-août-30 00:53:02 [restartedMain] INFO       org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor' 
+2021-août-30 00:53:10 [restartedMain] INFO       org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8078"] 
+2021-août-30 00:53:10 [restartedMain] INFO       org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8078 (http) with context path '' 
+2021-août-30 00:53:10 [restartedMain] INFO       springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed 
+2021-août-30 00:53:11 [restartedMain] INFO       springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s) 
+2021-août-30 00:53:12 [restartedMain] INFO       springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references 
+2021-août-30 00:53:15 [restartedMain] INFO       springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllPdtUsingGET_1 
+2021-août-30 00:53:15 [restartedMain] INFO       springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: updateCatUsingPUT_1 
+2021-août-30 00:53:15 [restartedMain] INFO       springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllRolesUsingGET_1 
+2021-août-30 00:53:15 [restartedMain] INFO       springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: openapiJsonUsingGET_1 
+2021-août-30 00:53:16 [restartedMain] INFO       springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: getAllUsersUsingGET_1 
+2021-août-30 00:53:16 [restartedMain] INFO       com.example.managershop.ManagerShopApplication Started ManagerShopApplication in 100.429 seconds (JVM running for 114.101) 
